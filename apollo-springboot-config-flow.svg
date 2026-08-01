@@ -139,11 +139,11 @@
   <text x="600" y="704" text-anchor="middle" font-size="13" fill="#334155">解析 apollo.bootstrap.namespaces（默认 application）</text>
 
   <!-- N5 -->
-  <rect x="270" y="742" width="660" height="96" rx="10" fill="#ffffff" stroke="#3b82f6" stroke-width="2" filter="url(#shadow)"/>
-  <text x="600" y="765" text-anchor="middle" font-size="14" font-weight="700" fill="#1d4ed8">遍历 namespace 注入 Bootstrap PropertySource</text>
-  <text x="600" y="785" text-anchor="middle" font-size="13" fill="#334155">ConfigService.getConfig(ns) -&gt; ConfigPropertySource</text>
-  <text x="600" y="803" text-anchor="middle" font-size="13" fill="#334155">组成 CompositePropertySource（ApolloBootstrapPropertySources）</text>
-  <text x="600" y="821" text-anchor="middle" font-size="13" fill="#334155">environment.addFirst()（优先级最高，可覆盖环境变量）</text>
+  <rect x="270" y="760" width="660" height="96" rx="10" fill="#ffffff" stroke="#3b82f6" stroke-width="2" filter="url(#shadow)"/>
+  <text x="600" y="780" text-anchor="middle" font-size="14" font-weight="700" fill="#1d4ed8">遍历 namespace 注入 Bootstrap PropertySource</text>
+  <text x="600" y="800" text-anchor="middle" font-size="13" fill="#334155">ConfigService.getConfig(ns) -&gt; ConfigPropertySource</text>
+  <text x="600" y="820" text-anchor="middle" font-size="13" fill="#334155">组成 CompositePropertySource（ApolloBootstrapPropertySources）</text>
+  <text x="600" y="840" text-anchor="middle" font-size="13" fill="#334155">environment.addFirst()（优先级最高，可覆盖环境变量）</text>
 
   <!-- N7 -->
   <rect x="270" y="934" width="660" height="66" rx="10" fill="#ffffff" stroke="#14b8a6" stroke-width="2" filter="url(#shadow)"/>
