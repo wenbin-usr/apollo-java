@@ -95,8 +95,8 @@
 
   <!-- ============ Nodes ============ -->
   <!-- N1 start pill -->
-  <rect x="440" y="140" width="320" height="44" rx="22" fill="#4f46e5" filter="url(#shadow)"/>
-  <text x="600" y="167" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">SpringBoot 应用启动 · SpringApplication.run()</text>
+  <rect x="430" y="140" width="350" height="44" rx="22" fill="#4f46e5" filter="url(#shadow)"/>
+  <text x="605" y="167" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">SpringBoot 应用启动 · SpringApplication.run()</text>
 
   <!-- N2 -->
   <rect x="270" y="212" width="660" height="80" rx="10" fill="#ffffff" stroke="#6366f1" stroke-width="2" filter="url(#shadow)"/>
