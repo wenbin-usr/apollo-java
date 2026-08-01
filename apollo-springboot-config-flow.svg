@@ -60,8 +60,8 @@
     <line x1="600" y1="1914" x2="600" y2="1942" marker-end="url(#arrow)"/>
     <line x1="600" y1="2000" x2="600" y2="2028" marker-end="url(#arrow)"/>
     <line x1="600" y1="2114" x2="600" y2="2142" marker-end="url(#arrow)"/>
-    <line x1="450" y1="2178" x2="420" y2="2242" marker-end="url(#arrow)"/>
-    <line x1="750" y1="2178" x2="780" y2="2242" marker-end="url(#arrow)"/>
+    <path d="M450,2178 L420,2178 L420,2242" marker-end="url(#arrow)"/>
+    <path d="M750,2178 L780,2178 L780,2242" marker-end="url(#arrow)"/>
     <path d="M420,2308 L420,2358 L600,2358"/>
     <path d="M780,2308 L780,2358 L600,2358"/>
     <line x1="600" y1="2358" x2="600" y2="2398" marker-end="url(#arrow)"/>
@@ -73,25 +73,25 @@
 
   <!-- dashed branch arrows -->
   <g stroke="#94a3b8" stroke-width="2" fill="none" stroke-dasharray="6 4">
-    <path d="M750,418 L1170,418 L1170,1121 L930,1121" marker-end="url(#arrow)"/>
-    <line x1="420" y1="630" x2="250" y2="630" marker-end="url(#arrow)"/>
-    <path d="M145,662 L145,840 L270,840" marker-end="url(#arrow)"/>
+    <path d="M750,418 L1140,418 L1140,1121 L930,1121" marker-end="url(#arrow)"/>
+    <line x1="420" y1="630" x2="270" y2="630" marker-end="url(#arrow)"/>
+    <path d="M165,662 L165,840 L270,840" marker-end="url(#arrow)"/>
   </g>
 
   <!-- arrow labels -->
   <g font-size="12" font-weight="700">
     <text x="610" y="474"  fill="#16a34a">是</text>
     <text x="610" y="690"  fill="#dc2626">否（默认）</text>
-    <text x="412" y="2212" fill="#16a34a">是</text>
-    <text x="775" y="2212" fill="#dc2626">否</text>
+    <text x="435" y="2170" text-anchor="middle" fill="#16a34a">是</text>
+    <text x="765" y="2170" text-anchor="middle" fill="#dc2626">否</text>
     <text x="760" y="412"  fill="#dc2626">否</text>
-    <text x="335" y="624"  text-anchor="middle" fill="#16a34a">是</text>
+    <text x="345" y="624"  text-anchor="middle" fill="#16a34a">是</text>
     <text x="612" y="938"  fill="#64748b" font-weight="600">继续自动配置</text>
-    <text x="612" y="1430" fill="#64748b" font-weight="600">调用 ConfigService.getConfig()</text>
+    <text x="612" y="1418" fill="#64748b" font-weight="600">调用 ConfigService.getConfig()</text>
   </g>
-  <rect x="1126" y="746" width="88" height="46" rx="8" fill="#ffffff" stroke="#fca5a5"/>
-  <text x="1170" y="766" text-anchor="middle" font-size="11.5" fill="#be123c">未开启</text>
-  <text x="1170" y="784" text-anchor="middle" font-size="11.5" fill="#be123c">bootstrap</text>
+  <rect x="1096" y="746" width="88" height="46" rx="8" fill="#ffffff" stroke="#fca5a5"/>
+  <text x="1140" y="766" text-anchor="middle" font-size="11.5" fill="#be123c">未开启</text>
+  <text x="1140" y="784" text-anchor="middle" font-size="11.5" fill="#be123c">bootstrap</text>
 
   <!-- ============ Nodes ============ -->
   <!-- N1 start pill -->
@@ -122,9 +122,9 @@
 
   <!-- D2 eagerLoad sidebox -->
   <rect x="60" y="598" width="210" height="64" rx="10" fill="#ffffff" stroke="#3b82f6" stroke-width="2" stroke-dasharray="4 3" filter="url(#shadow)"/>
-  <text x="145" y="620" text-anchor="middle" font-size="13" font-weight="700" fill="#1d4ed8">DeferredLogger.enable()</text>
-  <text x="145" y="638" text-anchor="middle" font-size="12" fill="#475569">日志系统初始化前</text>
-  <text x="145" y="654" text-anchor="middle" font-size="12" fill="#475569">提前加载 Apollo 配置</text>
+  <text x="165" y="620" text-anchor="middle" font-size="13" font-weight="700" fill="#1d4ed8">DeferredLogger.enable()</text>
+  <text x="165" y="638" text-anchor="middle" font-size="12" fill="#475569">日志系统初始化前</text>
+  <text x="165" y="654" text-anchor="middle" font-size="12" fill="#475569">提前加载 Apollo 配置</text>
 
   <!-- N4 -->
   <rect x="270" y="698" width="660" height="66" rx="10" fill="#ffffff" stroke="#3b82f6" stroke-width="2" filter="url(#shadow)"/>
